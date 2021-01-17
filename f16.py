@@ -100,7 +100,7 @@ def action():
         action()
     elif bch == '1':
         os.system('clear')
-        print (\x1b[1;90mlogo2)
+        print (logo2)
         print '\x1b[1;92m0770, 0750, 0773, 0751,0780,0783,0781,0782'
         try:
             c = raw_input(' Iraq code  : ')
