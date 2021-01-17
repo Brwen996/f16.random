@@ -101,9 +101,9 @@ def action():
     elif bch == '1':
         os.system('clear')
         print logo2
-        print 42 * '\x1b[1;90m=
+        print 42 * '\x1b[1;90m='
         print '\x1b[1;90m0770,0750,0773, 0751,0780,0783,0781,0782'
-        print 42 * '\x1b[1;90m=
+        print 42 * '\x1b[1;90m='
         try:
             c = raw_input(' Iraq code  : ')
             k = ''
