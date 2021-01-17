@@ -62,7 +62,7 @@ Telegram/@F16_4,@ROUSER
 Telegram/https://t.me/joinchat/TjQFdOWbVI85JB_P
 Discord/https://discord.gg/B9QEBEyX
 """
-logo2 = """  
+logo2 = """\x1b[1;90m  
    $$$$$\           $$\                
    \__$$ |          $$ |               
       $$ | $$$$$$\  $$ |      $$$$$$\  
@@ -72,9 +72,9 @@ $$ |  $$ |$$  __$$ |$$ |     $$  __$$ |
 \$$$$$$  |\$$$$$$$ |$$$$$$$$\\$$$$$$$ |
  \______/  \_______|\________|\_______|
 <<<<<<<<<<<<<<<<<<ROUSER>>>>>>>>>>>>>>>>>>>                                       
-        Telegram/@F16_4,@ROUSER                                      
+Telegram/@F16_4,@ROUSER                                      
 Telegram/https://t.me/joinchat/TjQFdOWbVI85JB_P
-    Discord/https://discord.gg/B9QEBEyXDiscord
+Discord/https://discord.gg/B9QEBEyXDiscord
     """
 back = 0
 successful = []
@@ -85,23 +85,25 @@ id = []
 def menu():
     os.system('clear')
     print logo
-    print 42 * '\x1b[1;91m='
-    print '\x1b[1;94m[1]\x1b[1;92m DaYk GaYN IRaQY] '
-    print 42 * '\x1b[1;91m='
+    print 42 * '\x1b[1;90m='
+    print '[1]\x1b[1;90m Raqamy Iraq '
+    print 42 * '\x1b[1;90m='
     action()
 
 
 def action():
     global cpb
     global oks
-    bch = raw_input('\n\x1b[1;91mSelect Option \x1b[1;93m>>>\x1b[1;95m  ')
+    bch = raw_input('\n\x1b[1;90mHalbzhera \x1b[1;90m>>> ')
     if bch == '':
-        print '[!] Fill in correctly'
+        print '[!] raqam 1 bnusa'
         action()
     elif bch == '1':
         os.system('clear')
         print (logo2)
-        print '\x1b[1;92m0770, 0750, 0773, 0751,0780,0783,0781,0782'
+        print 42 * '\x1b[1;90m=
+        print '\x1b[1;90m0770,0750,0773, 0751,0780,0783,0781,0782'
+        print 42 * '\x1b[1;90m=
         try:
             c = raw_input(' Iraq code  : ')
             k = ''
@@ -116,16 +118,16 @@ def action():
     elif bch == '0':
         exb()
     else:
-        print '[!] Fill Ba Kalk Naya'
+        print '[!] raqam 1 halbzhera'
         action()
     xxx = str(len(id))
-    psb('[\xe2\x9c\x93]Aw RaQaMaNaY DaYkYaN AGeYN: ' + xxx)
+    psb('[\xe2\x9c\x93]/x1b[1;90mRaqamakan: ' + xxx)
     time.sleep(0.1)
-    psb('\x1b[1;91m[\xe2\x9c\x93]\x1b[1;94m PaLa Pal MaKa 7iz...')
+    psb('\x1b[1;91m[\xe2\x9c\x93]\x1b[1;90m PaLa Pal MaKa...')
     time.sleep(0.1)
-    psb('[!] BO DaM KuT KRDNi TooLaKa CTRL+Z')
+    psb('[!] BO Rawastandni toolaka CTRL+Z')
     time.sleep(0.5)
-    print 42 * '\x1b[1;91m='
+    print 42 * '\x1b[1;90m='
 
     def main(arg):
         user = arg
