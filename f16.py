@@ -75,8 +75,7 @@ $$ |  $$ |$$  __$$ |$$ |     $$  __$$ |
         Telegram/@F16_4,@ROUSER                                      
 Telegram/https://t.me/joinchat/TjQFdOWbVI85JB_P
     Discord/https://discord.gg/B9QEBEyXDiscord
-         Acc/ᵇˡᵃᶜᵏ ʷᵒʳˡᵈ جـەلـە
-"""
+    """
 back = 0
 successful = []
 cpb = []
