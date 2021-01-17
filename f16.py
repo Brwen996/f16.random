@@ -304,7 +304,7 @@ def action():
     print 42 * '\x1b[1;91m='
     print '[\xe2\x9c\x93]\x1b[1;93m Process Has Been Completed ....'
     print '[\xe2\x9c\x93]\x1b[1;92m Total OK/\x1b[1;96mCP : ' + str(len(oks)) + '/' + str(len(cpb))
-    print '[\xe2\x9c\x93]\x1b[1;91m CP File Has Been Saved : save/chk.txt
+    print '[\xe2\x9c\x93]\x1b[1;91m CP File Has Been Saved : save/chk.txt'
     raw_input('\n[Press Enter To Go Back]')
     os.system('python2 .README.md')
 
