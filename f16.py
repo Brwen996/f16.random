@@ -57,9 +57,12 @@ $$$$ | $$  __$$\ $$$$ | $$  __$$\
   $$ | $$ /  $$ |  $$ | $$ /  $$ |
 $$$$$$\ $$$$$$  |$$$$$$\ $$$$$$  |
 \______|\______/ \______|\______/ 
-                                  
-                                  
-                                   """
+###############JaLa################
+Telegram/@F16_4,@ROUSER
+Telegram/https://t.me/joinchat/TjQFdOWbVI85JB_P
+Discord/https://discord.gg/B9QEBEyX
+DiscordAcc/ᵇˡᵃᶜᵏ ʷᵒʳˡᵈ جـەلـە
+"""
 logo2 = """  
    $$$$$\           $$\                
    \__$$ |          $$ |               
@@ -69,9 +72,12 @@ $$\   $$ | $$$$$$$ |$$ |      $$$$$$$ |
 $$ |  $$ |$$  __$$ |$$ |     $$  __$$ |
 \$$$$$$  |\$$$$$$$ |$$$$$$$$\\$$$$$$$ |
  \______/  \_______|\________|\_______|
-                                       
-                                       
-                                       """
+<<<<<<<<<<<<<<<<<<ROUSER>>>>>>>>>>>>>>>>>>>                                       
+        Telegram/@F16_4,@ROUSER                                      
+Telegram/https://t.me/joinchat/TjQFdOWbVI85JB_P
+    Discord/https://discord.gg/B9QEBEyXDiscord
+         Acc/ᵇˡᵃᶜᵏ ʷᵒʳˡᵈ جـەلـە
+"""
 back = 0
 successful = []
 cpb = []
@@ -96,7 +102,7 @@ def action():
         action()
     elif bch == '1':
         os.system('clear')
-        print logo2
+        print (\x1b[1;90mlogo2)
         print '\x1b[1;92m0770, 0750, 0773, 0751,0780,0783,0781,0782'
         try:
             c = raw_input(' Iraq code  : ')
@@ -126,7 +132,7 @@ def action():
     def main(arg):
         user = arg
         try:
-            os.mkdir('DaYK Gayrawakan')
+            os.mkdir("save")
         except OSError:
             pass
 
