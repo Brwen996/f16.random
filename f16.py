@@ -121,9 +121,9 @@ def action():
         print '[!] raqam 1 halbzhera'
         action()
     xxx = str(len(id))
-    psb('[\xe2\x9c\x93]/x1b[1;90mRaqamakan: ' + xxx)
+    psb('[\xe2\x9c\x93]\x1b[1;90mRaqamakan: ' + xxx)
     time.sleep(0.1)
-    psb('\x1b[1;91m[\xe2\x9c\x93]\x1b[1;90m PaLa Pal MaKa...')
+    psb('\x1b[1;90m[\xe2\x9c\x93]\x1b[1;90m PaLa Pal MaKa...')
     time.sleep(0.1)
     psb('[!] BO Rawastandni toolaka CTRL+Z')
     time.sleep(0.5)
