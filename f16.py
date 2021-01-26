@@ -102,11 +102,11 @@ def action():
         os.system('clear')
         print logo2
         print 42 * '\x1b[1;90m='
-        print '\x1b[1;90m0770,0750,0773, 0751,0780,0783,0781,0782'
+        print '\x1b[1;90m770,750,773, 751,780,783,781,782'
         print 42 * '\x1b[1;90m='
         try:
             c = raw_input(' Iraq code  : ')
-            k = ''
+            k = '+964'
             idlist = '.txt'
             for line in open(idlist, 'r').readlines():
                 id.append(line.strip())
